@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head><!--Onde ficam os metadados de um site-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--tag META == metadados que não podem ser criados por outro elemento html-->
+    <title>BalleCoffe</title>
+    <meta name="description" content="Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!">
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <header><!--cabeça do site-->
+        <nav> <!--cabeçalho do site-->
+            <span class="logo">ballecoffe</span> <!--tag SPAN == é como se fosse uma div, porém em linhas-->
+            <ul class="menu"> <!--Aqui sim criamos a lista-->
+                <li><a href="">Home</a></li><!--tag LI == elemento dalista-->
+                <li><a href="">Receitas</a></li>
+                <li><a href="">Novidades</a></li>
+                <li><a href="">Melhor Avaliadas</a></li>
+            </ul>
+            <a class="github">GitHub</a>
+        </nav>
+    </header>
+
+    <main><!--conteúdo principal do site-->
+        <div class="principal">
+            <section class="hero">
+                <header class="hero-conteudo">
+                    <span class="destaque marrom">novidade</span>
+                    <h1>Encontre a receita perfeita!</h1>
+                    <hr/>
+                    <h2 class="hero-subtitle">Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!</h2>
+                </header>
+                <div class="hero-imagens-container">
+                    <figure><img src="assets/image-10.png"/></figure>
+                    <figure><img src="assets/image-11.png"/></figure>
+                    <figure><img src="assets/image-12.png"/></figure>
+                    <figure><img src="assets/image-13.png"/></figure>
+                    <figure><img src="assets/image-14.png"/></figure>
+                    <figure><img src="assets/image-15.png"/></figure>
+                    <figure><img src="assets/image-16.png"/></figure>
+                    <figure><img src="assets/image-17.png"/></figure>
+                    <figure><img src="assets/image-18.png"/></figure>
+                </div>
+            </section>
+        </div>
+        <section class="botao-container">
+            <button type="button">
+                <img src="assets/chevrons-down.svg"/>
+            </button>
+        </section>
+        <section class="sectioninteira">
+            <header>
+                <div class="cardapio">
+                    <span class="destaque marrom">receitas</span>
+                    <h2 class="cardapio-h2">Confira as últimas receitas</h2>
+                    <p class="cardapio-p">Dê uma olhada nas receitas mais amadas!</p>
+                </div>
+            </header>
+            <div>
+                <div class="receitas-cards-container">
+                    <div class="cards">
+                        <header class="card-cabecalho">
+                            <div class="card-cabeca-detalhes">
+                                <span class="destaque emalta">em alta 🔥</span>
+                                <h3>Cappucino ☕</h3>
+                            </div>
+                                <p class="extraordinario">Extraordinário · 4/4</p>
+                        </header>
+                        <p class="paragrafo">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+                        <div class="autor">
+                            <img src="https://avatars.githubusercontent.com/u/54322854?v=4"/>
+                            <span class="nomeautor">Rafaella Ballerini</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer><!--rodapé do site-->
+        <p class="footercopy">Copyright &lt;CODEFEE /&gt; 2023</p>
+        <p class="footerautor">Feito com muito ❤ e café por Rafaella Ballerini</p>
+    </footer>
+</body>
+</html>
